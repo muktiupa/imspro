@@ -31,6 +31,7 @@ import { CartesianGrid, XAxis, Bar, BarChart, Line, LineChart } from "recharts"
 import { ChartTooltipContent, ChartTooltip, ChartContainer } from "@/components/ui/chart"
 
 export function Dashbord() {
+ 
   return (
     (<div className="flex min-h-screen w-full flex-col bg-muted/40">
       <aside
