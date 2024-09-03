@@ -112,19 +112,7 @@ export function StudentManagement() {
               </Table>
             </CardContent>
           </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>Student Attendance</CardTitle>
-              <CardDescription className="max-w-lg text-balance leading-relaxed">
-                View and analyze student attendance data.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="grid gap-6">
-                <LinechartChart className="aspect-[4/3]" />
-              </div>
-            </CardContent>
-          </Card>
+         
           <Card className="sm:col-span-3">
             <CardHeader className="pb-3">
               <CardTitle>Student Payment Management</CardTitle>
